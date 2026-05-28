@@ -1,15 +1,15 @@
 
 var myName = "Esther"
-console,log(myName)
+// console.log(myName)
 let myAge = 30
 const myHeight = 5.4
 
-//var , you use it when the vaue can change and you want to reassinit ter in the code.
+//var , you use it when the value can change and you want to reassign it later in the code.
 var myName = "John"
 console.log(myName)
 
 // let myAge = 25
-// console.log( myAge)
+// console.log(myAge)
 
 // const myHeight = 5.6
 // console.log(myHeight)
@@ -23,20 +23,18 @@ myAge = 31
 console.log(myAge)
 
 // myHeight = 5.5
-//console.log(myHeight)
+// console.log(myHeight)
 
-// DATATYPES : Primitive and Non-Premitive Data Types
-
-//Premitive Data Types: String, Number, Boolean, Null, Undefined
+//DATATYPES : Primitive and Non-Primitive Data Types
+//another comment to test git 
+//Primitive Data Types: String, Number, Boolean, Null, Undefined
 let myString = "Hello, World!"
 let myNumber = 42
 let myBoolean = true
 console.log(myString)
+console.log(myNumber)
 console.log(myBoolean)
 
-//Non-Premitive Data Types: Object, Array, function
-let myObject = { name: "John", age: 30 , isStudent: true}
-let myArray =["Rice" , "Beans", "Yam" , 2 , true , 30 , ["John", "Jane"] , { name: "Doe", age: 25}]
-
-
-
+//Non-Primitive Data Types: Object, Array, Function
+let myObject = { name: "John", age: 30 , isStudent: true }
+let myArray = ["Rice" , "Beans", "Yam" , 2 , true , 30 , ["John", "Jane"] , { name: "Doe", age: 25 }]

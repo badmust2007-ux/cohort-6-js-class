@@ -1,0 +1,1 @@
+//question 1:using the map method , crate a new array where each number is doubled 

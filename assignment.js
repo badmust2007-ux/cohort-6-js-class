@@ -1,13 +1,7 @@
 const str = "Nigeria is awesome";
 const country = str.substring(0, 7);
 const awesomeWord = str.slice(11);
-const isWord = str.slice(8, 10);
-
-console.log(country);
-console.log(awesomeWord);
-console.log(isWord);
-
-
+const isWord = str.slice(8, 10)
 const names = "John,Jane,Doe";
 const nameArray = names.split(",");
 console.log(nameArray);

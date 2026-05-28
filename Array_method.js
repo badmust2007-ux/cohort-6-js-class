@@ -27,6 +27,6 @@ const numbers4 = [10, 15, 20, 25, 30];
 const result = numbers4 
     .filter(num => num > 20)  // keep nuers greater than 20
     .map(num => num * 2);    // double them 
-
+ 
 
 console.log(result);

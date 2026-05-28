@@ -15,14 +15,10 @@ const items = [2000, 3000, 400, 100, 600];
 const total = items.reduce(function(sum, item) {
     return sum + item;
 }, 0);
-
+console.log(total);
 // add "green" to the end of the array and remove "red" from the array
 const colors = ["red", "blue", "yellow"];
 colors.push("green")
 colors.shift()
 console.log(colors)
 
-// add "purple" to the beginning of the array and remove "yellow" from the array
-colors.unshift("purple")
-colors.pop()
-console.log(colors)
